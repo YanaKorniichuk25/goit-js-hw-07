@@ -123,3 +123,18 @@ input {
   height: 300px;
   object-fit: cover;
 }
+#name-input {
+  margin-top: 10px;
+
+  min-width: 360px;
+}
+
+h1 {
+  margin-top: 16px;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 1.33;
+}
