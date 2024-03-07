@@ -138,3 +138,168 @@ h1 {
 
   line-height: 1.33;
 }
+.login-form {
+  max-width: 408px;
+
+  margin: 10px auto;
+
+  padding: 24px;
+
+  background-color: var(--white);
+
+  border-radius: 8px;
+}
+
+.login-form > label {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.login-form label:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+.login-form button {
+  margin-top: 16px;
+
+  padding: 8px 16px;
+
+  border-radius: 8px;
+
+  font-weight: 500;
+
+  background: var(--blue);
+
+  color: var(--white);
+
+  min-width: 86px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-form button:hover {
+  background-color: var(--blue-hover);
+}
+.widget {
+  margin: 50px auto;
+
+  max-width: 345px;
+
+  padding: 100px 88px;
+
+  border-radius: 8px;
+
+  background: var(--white);
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 16px;
+}
+
+.color {
+  display: block;
+}
+
+.change-color {
+  min-width: 148px;
+
+  padding: 8px 16px;
+
+  border-radius: 8px;
+
+  font-weight: 500;
+
+  background-color: var(--blue);
+
+  color: var(--white);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.change-color:hover {
+  background-color: var(--blue-hover);
+}
+#controls {
+  max-width: 486px;
+
+  margin: 10px auto;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  padding: 32px;
+
+  gap: 16px;
+
+  border-radius: 8px;
+
+  background-color: var(--item-background-color);
+}
+
+#controls input {
+  padding: 8px;
+
+  border-radius: 8px;
+
+  min-width: 150px;
+
+  text-align: center;
+}
+
+#controls button {
+  min-width: 120px;
+
+  padding: 8px 16px;
+
+  border-radius: 8px;
+
+  font-weight: 500;
+
+  color: var(--white);
+
+  line-height: 1.5;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#controls button[data-create] {
+  background-color: var(--blue);
+}
+
+#controls button[data-create]:hover {
+  background-color: var(--blue-hover);
+}
+
+#controls button[data-destroy] {
+  background-color: var(--red);
+}
+
+#controls button[data-destroy]:hover {
+  background-color: var(--red-hover);
+}
+
+#boxes {
+  border-radius: 8px;
+
+  background-color: var(--item-background-color);
+
+  display: flex;
+
+  gap: 16px;
+
+  flex-wrap: wrap;
+
+  padding: 32px;
+}
